@@ -43,7 +43,10 @@ header{
     height: 210px;
     border-radius: 1rem;
     box-shadow: 2px 2px 2px grey;
+    text-align: center;
 }
+
+/* Cards Postions */
 
 .row{
     width: 100%;
@@ -68,6 +71,59 @@ header{
     position: absolute;
     right: 0;
     top: 0;
+}
+
+/* Cards Hover */
+
+.card:hover{
+    background-color: white;
+    cursor: pointer;
+    background-image: none;
+}
+
+.hide{
+    display: none
+}
+
+img{
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.tractor:hover>.hide {
+    display: block;
+    color:#E67919;
+    font-size: 1.5rem;
+}
+
+.baloon:hover>.hide {
+    display: block;
+    color:#E61986;
+    font-size: 1.5rem;
+}
+
+.bicycle:hover>.hide {
+    display: block;
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.ship:hover>.hide {
+    display: block;
+    color:purple;
+    font-size: 1.5rem;
+}
+
+.submarine:hover>.hide {
+    display: block;
+    color: green;
+    font-size: 1.5rem;
+}
+
+.tram:hover>.hide {
+    display: block;
+    color: darkred;
+    font-size: 1.5rem;
 }
 
 
