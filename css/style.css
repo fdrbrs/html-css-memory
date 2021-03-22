@@ -46,6 +46,20 @@ header{
     text-align: center;
 }
 
+.scoperta{
+    background-color: white;
+    background-repeat: repeat;
+    width: 180px;
+    height: 210px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px grey;
+    text-align: center;
+    color:#E61986;
+    font-size: 1.5rem;
+}
+
+
+
 /* Cards Postions */
 
 .row{
