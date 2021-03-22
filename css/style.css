@@ -29,8 +29,7 @@ header{
 
 .container{
     margin: auto;
-    width: 80%;
-    border: 1px solid black;
+    width: 780px;
 }
 
 /* Cards */
@@ -43,11 +42,13 @@ header{
     width: 180px;
     height: 210px;
     border-radius: 1rem;
+    box-shadow: 2px 2px 2px grey;
 }
 
 .row{
     width: 100%;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .second_card{
@@ -67,8 +68,11 @@ header{
     position: absolute;
     right: 0;
     top: 0;
-
 }
 
 
 /* Footer */
+
+footer{
+    text-align: center;
+}
