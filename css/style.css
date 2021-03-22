@@ -1,0 +1,74 @@
+/* Common Rules */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body{
+    background-color: #ADD8E6;
+    font-family: 'Coiny', cursive;
+}
+
+/* Header */
+
+header{
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+
+/* Main */
+
+/* Container */
+
+.container{
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+}
+
+/* Cards */
+
+.card{
+    background-image: url(/img/pattern.png);
+    /* background-color: white; */
+    background-repeat: repeat;
+    background-size: 13rem;
+    width: 180px;
+    height: 210px;
+    border-radius: 1rem;
+}
+
+.row{
+    width: 100%;
+    position: relative;
+}
+
+.second_card{
+    position: absolute;
+    top: 0;
+    left: 200px;
+
+}
+
+.third_card{
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+
+.fourth_card{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+
+/* Footer */
