@@ -10,7 +10,7 @@
 
 body{
     background-color: #ADD8E6;
-    font-family: 'Coiny', cursive;
+    font-family: 'Nerko One', cursive;
 }
 
 /* Header */
@@ -20,6 +20,7 @@ header{
     font-size: 3.5rem;
     color: white;
     text-shadow: 1px 1px 1px #000000;
+    margin-bottom: 2rem;
 }
 
 
